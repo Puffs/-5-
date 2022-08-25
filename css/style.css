@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'Montserrat600';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin_cyrillic/montserrat-v15-latin_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin_cyrillic/montserrat-v15-latin_cyrillic-600.woff') format('woff'); /* Modern Browsers */ 
+  }
+  @font-face {
+    font-family: 'Montserrat900';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin_cyrillic/montserrat-v15-latin_cyrillic-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin_cyrillic/montserrat-v15-latin_cyrillic-900.woff') format('woff'); /* Modern Browsers */ 
+  }
+
+
+  .dropbtn {
+    
+    color: white;
+    border: none;
+    cursor: pointer;   
+}
+
+.dropdown {
+    display: none;
+    padding-bottom: 2vw;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 25vw;
+    
+    margin-top: 50px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display: block;}
+
+.nav {
+    font-family: Montserrat600;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+.nav-burger{
+    width: 7vw;
+    height: auto;
+    display: none;
+}
+.nav-burger-img{
+    width: 6vw;
+    height: 6vw;
+}
+.nav-firstImg{
+    width: 20%;
+    height: auto;
+    display:flex;
+   justify-content: flex-start;
+}
+.nav-secondImg{
+    display: flex;
+    justify-content: flex-end;
+    width: 3%;
+    height: auto;
+}
+.nav-menu{
+    display: flex;
+    font-size: 1vw;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.about{
+    display: flex;
+    max-width: 1440;
+    width: 100%;
+    height: auto;
+    background-image: url('../img/Swiper1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 5%;
+    
+    
+    
+}
+.about-h{
+  
+    height:100%;   
+    flex-direction: column;
+    padding-left: 5%;
+    
+}
+.about-h1{
+    font-family: Montserrat900;
+    color: white;
+    font-size:4vw;
+    
+}
+.about-h2{
+    font-family: Montserrat600;
+    font-size:2vw;
+    color:white;
+}
+.about-button{
+    font-family: Montserrat600;
+    font-size:  1vw ;
+    color:white;
+    min-height: 4vw;
+    width: 20%;
+    height:5vw;
+    background-color: #ff9900;
+    
+     
+}
+.aboutUs{
+    font-family: Montserrat600;
+    
+}
+.aboutUs-h1{
+    font-size:4vw;
+}
+.aboutUs-article{
+    font-family: Montserrat600;
+    font-size:1vw;
+    line-height: 2vw;
+    
+}
+.aboutUs-img{
+    display: flex;
+    
+    width: 100%;
+    height: 30vw;
+   
+    flex-direction: row;
+}
+.aboutUs-img-TXT{
+    display: none;
+}
+.aboutUs-fig{
+    display:flex;
+    width: 50%;
+    height: auto;/*515 720*/
+    align-items: flex-end;
+    background-image: url('../img/Labor-example.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+.aboutUs-fig-descript{
+    display: flex;
+    width: 100%;
+    height: 30%;/*150*/
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.aboutUs-fig-descriptTXT{
+    font-family: Montserrat600;
+    font-size:1vw;
+    color:white;
+}
+.aboutUs-fig-descript-button{
+    width:10vw;
+    height: 4vh;
+    font-family: Montserrat600;
+    font-size:1vw;
+    outline:0.2vw solid #ff9900;
+    background: rgba(0, 0, 0, 0.5);
+    color: white; 
+}
+.aboutUs-fig-descript-button2{
+
+    display: none;
+}
+.aboutUs-addition{
+    display:flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.boutUs-addition-320{
+    display:none;
+}
+.aboutUs-addition-firstBlock{
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline:2px solid #333333;
+    height:47%;
+    width: 90%;
+   
+
+}
+
+.aboutUs-addition-secondBlock{
+   
+    font-family: Montserrat600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline:2px solid #333333;
+    height:47%;
+    width: 90%;
+    
+}
+.aboutUs-addition-firstBlock-pic{
+    height: 80%;
+}
+
+.aboutUs-addition-firstBlock-square{
+    height:80%;
+    
+}
+.aboutUs-addition-firstBlock-txt{
+    font-family: Montserrat600;
+}
+.aboutUs-addition-firstBlock-txt-h2{
+    font-size: 2vw;
+    
+}
+.aboutUs-addition-secondBlock-settings{
+    height: 80%;
+}
+.aboutUs-addition-secondBlock-txt{
+    font-family: Montserrat600;
+    
+}
+.aboutUs-addition-secondBlock-txt-h2{
+    font-size: 2vw;
+}
+.aboutUs-addition-firstBlock-txt-v{
+    font-size: 1vw;
+}
+.aboutUs-addition-secondBlock-txt-v{
+    font-size: 1vw;
+}
+
+.aboutUs-addition-firstBlock-txt-h2-320{
+    font-size: 2vw;
+    display: none;
+}
+.aboutUs-addition-firstBlock-txt-v-320{
+    font-size: 1vw;
+    display: none;
+}
+.aboutUs-addition-secondBlock-txt-h2-320{
+    font-size: 2vw;
+    display: none;
+}
+.aboutUs-addition-secondBlock-txt-v-320{
+    font-size: 1vw;
+    display: none;
+}
+.aboutUs-addition-firstBlock-square320{
+    display: none;
+}
+.aboutUs-addition-secondBlock-settings320{
+   display: none;
+}
+
+@media (max-width: 1024px) {
+   
+    .dropdown{
+        display: flex;
+       
+    }
+    .nav-firstImg{
+        justify-content: center;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-burger{
+        display: flex;
+        width: 7vw;
+        height: 4vw;
+        padding-top: 1vh;
+    }
+    .aboutUs-img{
+            height: 85vh;
+            flex-direction: column;
+    }
+    .aboutUs-fig{
+        vertical-align: bottom;
+        display:inline-flex;
+        width: 100%;
+        height: 30%;
+    }
+    .aboutUs-addition{
+        padding-top: 2vh;
+        width: 100%;
+        height:50%;
+    }
+    .aboutUs-addition-firstBlock-txt-h2{
+        font-size: 2vw;
+    }
+    .aboutUs-addition-secondBlock-txt-h2{
+        font-size: 2vw;
+    }
+    .aboutUs-addition-firstBlock-txt-v{
+        font-size: 1vw;
+    }
+    .aboutUs-addition-secondBlock-txt-v{
+        font-size: 1vw;
+    }
+    }
+
+    @media (max-width: 768px) {
+        .about{
+            display: flex;
+            justify-content: center;
+            padding-left: 0%;
+        }
+        .about-h{
+            padding-left: 0%;
+        }
+       
+        .aboutUs-addition-firstBlock-txt-h2{
+           
+            font-size: 2vw;
+        }
+        .aboutUs-addition-secondBlock-txt-h2{
+            
+            font-size: 2vw;
+        }
+        .aboutUs-addition-firstBlock-txt-v{
+           
+            font-size: 1vw;
+        }
+        .aboutUs-addition-secondBlock-txt-v{
+            overflow:hidden;
+            font-size: 1vw;
+        }
+    }
+   
+    @media (max-width: 320px) {
+        .nav-secondImg{
+            display: none;
+        }
+       
+        .nav {
+            flex-direction: row-reverse;
+        }
+        .about-h{
+          text-align: center;
+        }
+        .aboutUs-fig-descript {
+            display: none;
+        }
+        
+        .aboutUs-img-TXT{
+            font-family: Montserrat600  ;
+            display: flex;
+            font-size: 2vw;
+        }
+        .aboutUs-fig-descript-button2{
+            display: flex;
+            width:30vw;
+            height: 6vh;
+            font-family: Montserrat600;
+            font-size:3vw;
+            outline:1vw solid #ff9900;
+            background: rgba(255, 255, 255, 0.5);
+            color: #ff9900;      
+        }
+        .aboutUs-addition-320{
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+           
+        }
+     
+        .aboutUs-addition-firstBlock{
+            display: none;
+        }
+        .aboutUs-addition-secondBlock{
+            display: none;
+        }
+        .aboutUs-addition-firstBlock-square320{
+            display: flex;
+            width: 10vw;
+            height: auto;
+        }
+        .aboutUs-addition-secondBlock-settings320{
+            display: flex;
+            width: 10vw;
+            height: auto;
+        }
+        .aboutUs-addition-firstBlock-txt-h2-320{
+            font-size: 4vw;
+            display: flex;
+        }
+        .aboutUs-addition-firstBlock-txt-v-320{
+            font-size: 2vw;
+            display: flex;
+            margin-bottom: 10%;
+        }
+        .aboutUs-addition-secondBlock-txt-h2-320{
+            font-size: 4vw;
+            display: flex;
+        }
+        .aboutUs-addition-secondBlock-txt-v-320{
+            font-size: 2vw;
+            display: flex;
+        }
+    }
